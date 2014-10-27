@@ -1,0 +1,73 @@
+# Ignore libraries #
+####################
+node_modules/
+bower_components/
+
+# Ignore Grunt temp #
+#####################
+/public/
+/build/
+/.tmp/
+/.sass-cache/
+
+# Ignore Redis #
+################
+*.rdb
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# GitHub boilerplate #
+######################
+# the rest of this ignore file is boilerplate added by github
+# that will most likely not be necessary for this project
+
+# Ignore MongoDB #
+##################
+/db/
+
+# Ignore Web Storm #
+####################
+.idea
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.xap
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+# *.sdf
+*.mdf
+*.ldf
+
+strongloop.json
+local_config.js
