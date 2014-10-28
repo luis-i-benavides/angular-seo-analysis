@@ -2,22 +2,22 @@
     'use strict';
 
     angular
-        .module('app.dashboard')
-        .controller('DashboardCtrl', DashboardCtrl);
+        .module('app.about')
+        .controller('AboutCtrl', AboutCtrl);
 
     /* @ngInject */
-    function DashboardCtrl($log, $state) {
+    function AboutCtrl($log, $state) {
         /* jshint validthis:true */
         var vm = this;
         vm.currentState = $state.current.name;
-        vm.title = 'Dashboard';
+        vm.title = 'About';
 
         activate();
 
         ////////////////
 
         function activate() {
-            $log.info('Activated Dashboard View');
+            $log.info('Activated About View');
         }
     }
 })();

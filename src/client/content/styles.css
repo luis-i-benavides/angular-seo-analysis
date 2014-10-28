@@ -8,5 +8,5 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff;
+	background-color: red; // #aaa;
 }

@@ -19,7 +19,7 @@
 
         function configureStateHelper() {
             routerHelperProvider.configure({
-                docTitle: 'wdpr.angular-router demo',
+                docTitle: '24/7 Orlando Locksmiths',
                 resolveAlways: resolveAlways,
                 errorPath: '/'
             });

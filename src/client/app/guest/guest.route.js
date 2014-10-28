@@ -20,7 +20,7 @@
                     controller: 'GuestCtrl',
                     controllerAs: 'vm',
                     data: {
-                        menuNavPosition: 2,
+                        menuNavPosition: 3,
                         title: 'Guest'
                     }
                 }
@@ -33,7 +33,7 @@
                     controller: 'PartyCtrl',
                     controllerAs: 'vm',
                     data: {
-                        menuNavPosition: 3,
+                        menuNavPosition: 4,
                         title: 'Party'
                     }
                 }
@@ -44,7 +44,7 @@
                     url: '/error',
                     templateUrl: 'this-does-not-exist.html',
                     data: {
-                        menuNavPosition: 4,
+                        menuNavPosition: 5,
                         title: 'Error'
                     }
                 }
