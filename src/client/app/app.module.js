@@ -5,8 +5,9 @@
         'ngAnimate',
         'wdpr.angular-router',
         'app.core',
+        /* 'app.main', */
         'app.about',
         'app.services',
-        'app.guest'
+        'app.locations'
     ]);
 })();

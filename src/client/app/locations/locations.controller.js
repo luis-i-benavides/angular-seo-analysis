@@ -2,22 +2,22 @@
     'use strict';
 
     angular
-        .module('app.guest')
-        .controller('PartyCtrl', PartyCtrl);
+        .module('app.locations')
+        .controller('LocationsCtrl', LocationsCtrl);
 
     /* @ngInject */
-    function PartyCtrl($log, $state) {
+    function LocationsCtrl($log, $state) {
         /* jshint validthis:true */
         var vm = this;
         vm.currentState = $state.current.name;
-        vm.title = 'Party';
+        vm.title = 'Locations';
 
         activate();
 
         ////////////////
 
         function activate() {
-            $log.info('Activated Party View');
+            $log.info('Activated Locations View');
         }
     }
 })();

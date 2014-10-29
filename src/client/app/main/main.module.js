@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('app.guest', [
+    angular.module('app.main', [
         'app.core',
 	]);
 })();
