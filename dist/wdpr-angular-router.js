@@ -27,6 +27,7 @@
         };
 
         $locationProvider.html5Mode(true);
+        $locationProvider.hashPrefix('!');
 
         /**
          * Configure the docTitle and resolveAlways settings

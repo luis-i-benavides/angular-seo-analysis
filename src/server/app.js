@@ -10,15 +10,10 @@ var environment = process.env.NODE_ENV;
 console.log('PORT=' + port);
 console.log('NODE_ENV=' + environment);
 
-var source = '';
-
-app.get('/ping', function(req, res, next) {
-    console.log(req.body);
-    res.send('pong');
-});
-
+app.use(require('prerender-node').set('prerenderToken', 'xLmdV8Et5kavIbrtBaJE'));
 app.use('/', express.static('./src/client'));
 app.use('/', express.static('./'));
+
 
 app.listen(port, function() {
     console.log('Express server listening on port ' + port);

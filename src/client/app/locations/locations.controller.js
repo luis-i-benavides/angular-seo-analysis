@@ -13,7 +13,8 @@
 
         Page.setTitle('ACME, Inc. | Our Locations');
         Page.setDescription('ACME, Inc., we have locations all over northern California.');
-
+        Page.setH1('Our Locations');
+        
         activate();
 
         ////////////////

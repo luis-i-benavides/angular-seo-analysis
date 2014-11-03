@@ -13,6 +13,7 @@
 
         Page.setTitle('ACME, Inc. | Our Services');
         Page.setDescription('ACME, Inc., our services include auto, residential, and business lockouts.');
+        Page.setH1('Our Services');
 
         activate();
 

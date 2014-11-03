@@ -13,6 +13,7 @@
 
         Page.setTitle('ACME, Inc. | About Us');
         Page.setDescription('ACME, Inc., about us, a full service locksmith dedicated to your complete satisfaction');
+        Page.setH1('About Us');
 
         activate();
 
