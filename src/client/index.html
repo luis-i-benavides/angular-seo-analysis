@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html ng-app="app">
+<html ng-app="app" ng-controller="MainCtrl">
 <head>
     <style>
         /* This helps the ng-show/ng-hide animations start at the right place. */
@@ -8,12 +8,12 @@
             display: none!important;
         }
     </style>
-    <title ng-bind="title + ' | 1(407)387-4512'"></title>
+    <title ng-bind="Page.title()"></title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
     <meta name="google-site-verification" content="cp5sylB89C1R55a2c9tVS221zKPKp1_Qdz6zGxzuFr4" />
-    <meta name="description" content="We provide fast &amp; reliable locksmith services to over 20+ locations in the Orlando, FL area. Give us a call | 1(407)387-4512">
+    <meta name="description" content="{{Page.description()}}">
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
     <link href="content/animations.css" rel="stylesheet"/>
     <link href="content/styles.css" rel="stylesheet" />
@@ -42,11 +42,10 @@
     <script src="app/layout/footer.controller.js"></script>
     <script src="app/core/core.module.js"></script>
     <script src="app/core/config.js"></script>
+    <script src="app/page.js"></script>
 
-<!--
     <script src="app/main/main.module.js"></script>
     <script src="app/main/main.controller.js"></script>
--->
 
     <script src="app/about/about.module.js"></script>
     <script src="app/about/about.route.js"></script>

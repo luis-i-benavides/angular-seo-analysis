@@ -5,7 +5,8 @@
         'ngAnimate',
         'wdpr.angular-router',
         'app.core',
-        /* 'app.main', */
+        'app.page',
+        'app.main',
         'app.about',
         'app.services',
         'app.locations'

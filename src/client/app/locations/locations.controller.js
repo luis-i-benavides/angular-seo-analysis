@@ -3,14 +3,16 @@
 
     angular
         .module('app.locations')
-        .controller('LocationsCtrl', LocationsCtrl);
+        .controller('LocationsCtrl', ['$log', '$state', 'Page', LocationsCtrl]);
 
     /* @ngInject */
-    function LocationsCtrl($log, $state) {
+    function LocationsCtrl($log, $state, Page) {
         /* jshint validthis:true */
         var vm = this;
         vm.currentState = $state.current.name;
-        vm.title = 'Locations';
+
+        Page.setTitle('ACME, Inc. | Our Locations');
+        Page.setDescription('ACME, Inc., we have locations all over northern California.');
 
         activate();
 

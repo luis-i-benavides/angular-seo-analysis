@@ -3,5 +3,6 @@
 
     angular.module('app.about', [
         'app.core',
+        'app.page'
 	]);
 })();

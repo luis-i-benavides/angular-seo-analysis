@@ -3,15 +3,16 @@
 
     angular
         .module('app.about')
-        .controller('AboutCtrl', ['$log', '$state', AboutCtrl]);
+        .controller('AboutCtrl', ['$log', '$state', 'Page', AboutCtrl]);
 
     /* @ngInject */
-    function AboutCtrl($log, $state) {
+    function AboutCtrl($log, $state, Page) {
         /* jshint validthis:true */
         var vm = this;
         vm.currentState = $state.current.name;
-        // Page.setTitle('ACME, Inc. About Us');
-        vm.title = 'About Us';
+
+        Page.setTitle('ACME, Inc. | About Us');
+        Page.setDescription('ACME, Inc., about us, a full service locksmith dedicated to your complete satisfaction');
 
         activate();
 
