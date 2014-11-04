@@ -15,7 +15,7 @@
             {
                 state: 'locations',
                 config: {
-                    url: '#!/acme-locations',
+                    url: '/acme-locations',
                     templateUrl: 'app/locations/acme-locations.html',
                     controller: 'LocationsCtrl',
                     controllerAs: 'vm',
