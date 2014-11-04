@@ -1,0 +1,11 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://ec2-54-166-67-47.compute-1.amazonaws.com:8626/</loc>
+    </url>
+    <url>
+        <loc>http://ec2-54-166-67-47.compute-1.amazonaws.com:8626/#!/acme-locations</loc>
+    </url>
+    <url>
+        <loc>http://ec2-54-166-67-47.compute-1.amazonaws.com:8626/#!/acme-services</loc>
+    </url>
+</urlset>

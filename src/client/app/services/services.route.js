@@ -15,7 +15,7 @@
             {
                 state: 'services',
                 config: {
-                    url: '/acme-services',
+                    url: '#!/acme-services',
                     templateUrl: 'app/services/acme-services.html',
                     controller: 'ServicesCtrl',
                     controllerAs: 'vm',
