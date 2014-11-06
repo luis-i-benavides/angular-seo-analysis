@@ -11,7 +11,7 @@
         var vm = this;
         vm.currentState = $state.current.name;
 
-        Page.setTitle('ACME, Inc. | Our Services');
+        Page.setTitle('Our Services | ACME, Inc.');
         Page.setDescription('ACME, Inc., our services include auto, residential, and business lockouts.');
         Page.setCanonicalUrl($location.absUrl());
         Page.setH1('Our Services');

@@ -11,8 +11,8 @@
         var vm = this;
         vm.currentState = $state.current.name;
 
-        Page.setTitle('ACME, Inc. | About Us');
-        Page.setDescription('ACME, Inc., about us, a full service locksmith dedicated to your complete satisfaction');
+        Page.setTitle('About Us | ACME, Inc.');
+        Page.setDescription('ACME, Inc. is a full service locksmith dedicated to your complete satisfaction.');
         Page.setCanonicalUrl($location.absUrl());
         Page.setH1('About Us');
 
