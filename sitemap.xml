@@ -6,6 +6,15 @@
         <loc>http://ec2-54-166-67-47.compute-1.amazonaws.com:8626/#!/acme-locations</loc>
     </url>
     <url>
+        <loc>http://ec2-54-166-67-47.compute-1.amazonaws.com:8626/#!/acme-locations/redmond-lakes</loc>
+    </url>
+    <url>
+        <loc>http://ec2-54-166-67-47.compute-1.amazonaws.com:8626/#!/acme-locations/redondo-beach</loc>
+    </url>
+    <url>
+        <loc>http://ec2-54-166-67-47.compute-1.amazonaws.com:8626/#!/acme-locations/ventura</loc>
+    </url>
+    <url>
         <loc>http://ec2-54-166-67-47.compute-1.amazonaws.com:8626/#!/acme-services</loc>
     </url>
 </urlset>
