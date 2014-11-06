@@ -1,10 +1,9 @@
 ﻿<section>
     <div class="container">
         <h1>{{Page.h1()}}</h1>
-        <ul class="checklist">
-            <li>Redmond Lakes</li>
-            <li>Redondo Beach</li>
-            <li>Ventura</li>
-        </ul>
+        <a ui-sref="locations.redmond-lakes" class="btn btn-primary" role="button">Redmond Lakes</a>
+        <a ui-sref="locations.redondo-beach" class="btn btn-primary" role="button">Redondo Beach</a>
+        <a ui-sref="locations.ventura" class="btn btn-primary" role="button">Ventura</a>
+        <div ui-view></div>
     </div>
 </section>

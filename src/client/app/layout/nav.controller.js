@@ -16,8 +16,8 @@
 
         function activate() {
             var states = routerHelper.getStates();
-            vm.menuStates = states.filter(function(s) {
-                return s.data && s.data.menuNavPosition;
+            vm.menuStates = states.filter(function(state) {
+                return state.data && state.data.menuNavPosition && state.name.indexOf('.') == -1;
             });
         }
     }

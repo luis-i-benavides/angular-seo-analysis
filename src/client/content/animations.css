@@ -3,27 +3,27 @@
 .ani-nav {
     -webkit-text-shadow: 0 -1px 0 rgba(0,0,0,.15);
     text-shadow: 0 -1px 0 rgba(0,0,0,.15);
-    background-color: grey; // #428bca;
-    border-color: grey; // #1360a3;
+    background-color: #428bca;
+    border-color: #1360a3;
     box-shadow: 0 1px 0 rgba(255,255,255,.1);
 }
 .ani-nav .navbar-collapse {
-    border-color: black; // #1360a3;
+    border-color: #1360a3;
 }
 .ani-nav .navbar-brand {
-    color: darkblue; // #fff;
+    color: #fff;
 }
 .ani-nav .navbar-nav > li > a {
-    color: lightgrey; // #acd9ff;
+    color: #acd9ff;
 }
 .ani-nav .navbar-nav > li > a:hover {
-    color: grey; //#fff;
-    background-color: #ffffff; //#4477aa;
+    color: #fff;
+    background-color: #4477aa;
 }
 .ani-nav .navbar-nav > .active > a,
 .ani-nav .navbar-nav > .active > a:hover {
-    color: darkgrey; //#fff;
-    background-color: lightgrey; //#1360a3;
+    color: #fff;
+    background-color: #1360a3;
 }
 .ani-nav .navbar-toggle {
     background-color: #1360a3;
