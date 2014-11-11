@@ -9,6 +9,7 @@
         'app.main',
         'app.about',
         'app.services',
-        'app.locations'
+        'app.locations',
+        'app.events'
     ]);
 })();

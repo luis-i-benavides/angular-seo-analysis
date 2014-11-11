@@ -1,0 +1,36 @@
+﻿<section>
+    <div class="container">
+        <h1>{{Page.h1()}}</h1>
+
+        <h2>Upcoming Courses</h2>
+
+        <div itemscope itemtype="http://data-vocabulary.org/Event">
+            <p><span itemprop="description">After highly-publicized break-ins, we are pleased to announce our lock reinforcement course.</span></p>
+
+            <p>
+                When:
+                <time itemprop="startDate" datetime="2015-10-15T19:00-08:00">Oct 15, 7:00PM</time>
+                —
+                <time itemprop="endDate" datetime="2015-10-15T19:00-08:00">Oct 15, 9:00PM</time>
+            </p>
+
+            <p>
+                Where:
+                ​<span itemprop="location" itemscope itemtype="http://data-vocabulary.org/​Organization">
+                <span itemprop="name">Redmond Lakes Store,</span>
+                <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+                    <span itemprop="street-address">234 Main St.</span>,
+                    <span itemprop="locality">Redmond Lakes</span>,
+                    <span itemprop="region">CA</span>
+                 </span>
+                <span itemprop="geo" itemscope itemtype="http://data-vocabulary.org/​Geo">
+                    <meta itemprop="latitude" content="37.774929"/>
+                    <meta itemprop="longitude" content="-122.419416"/>
+                </span>
+            </span>
+            </p>
+
+            Category: <span itemprop="eventType">Hands-on Course</span>
+        </div>
+    </div>
+</section>
