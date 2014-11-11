@@ -15,7 +15,7 @@
             {
                 state: 'events',
                 config: {
-                    url: '/',
+                    url: '/acme-events',
                     templateUrl: 'app/events/acme-events.html',
                     controller: 'EventsCtrl',
                     controllerAs: 'vm',
