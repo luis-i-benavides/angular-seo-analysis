@@ -1,23 +1,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://angular-seo-analysis.herokuapp.com</loc>
+        <loc>http://angular-seo-analysis.herokuapp.com/</loc>
     </url>
     <url>
-        <loc>http://angular-seo-analysis.herokuapp.com/acme-locations</loc>
+        <loc>http://angular-seo-analysis.herokuapp.com/acme-locations/</loc>
     </url>
     <url>
-        <loc>http://angular-seo-analysis.herokuapp.com/acme-locations/redmond-lakes</loc>
+        <loc>http://angular-seo-analysis.herokuapp.com/acme-locations/redmond-lakes/</loc>
     </url>
     <url>
-        <loc>http://angular-seo-analysis.herokuapp.com/acme-locations/redondo-beach</loc>
+        <loc>http://angular-seo-analysis.herokuapp.com/acme-locations/redondo-beach/</loc>
     </url>
     <url>
-        <loc>http://angular-seo-analysis.herokuapp.com/acme-locations/ventura</loc>
+        <loc>http://angular-seo-analysis.herokuapp.com/acme-locations/ventura/</loc>
     </url>
     <url>
-        <loc>http://angular-seo-analysis.herokuapp.com/acme-services</loc>
+        <loc>http://angular-seo-analysis.herokuapp.com/acme-services/</loc>
     </url>
     <url>
-        <loc>http://angular-seo-analysis.herokuapp.com/acme-events</loc>
+        <loc>http://angular-seo-analysis.herokuapp.com/acme-events/</loc>
     </url>
 </urlset>
