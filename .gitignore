@@ -1,3 +1,7 @@
+# Ignore sitemap.xml since it will be generated #
+#################################################
+sitemap.xml
+
 # Ignore libraries #
 ####################
 node_modules/
