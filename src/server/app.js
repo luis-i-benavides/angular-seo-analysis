@@ -38,12 +38,10 @@ app.listen(port, function () {
         });
 
         urls.forEach(function(aUrl){
-            console.log('URL: ' + aUrl);
-            sm.add({url: url.parse(aUrl).path.slice(1)});
+            sm.add({url: url.parse(aUrl).path});
         });
 
         sm.toXML(function (xml) {
-            // Write to a file
             fs.writeFile('sitemap.xml', xml);
         });
     });
