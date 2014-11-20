@@ -1,7 +1,7 @@
 angular-seo
 ===========
 
-Angular SPA to analyze SEO
+Angular SPA to analyze SEO.
 
 ## Deploying to Heroku
 
