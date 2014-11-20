@@ -37,12 +37,14 @@ app.listen(port, function () {
             hostname: homeUrl
         });
 
-        urls.forEach(function(aUrl){
+        urls.forEach(function (aUrl) {
             sm.add({url: url.parse(aUrl).path});
         });
 
         sm.toXML(function (xml) {
             fs.writeFile('sitemap.xml', xml);
         });
+    }).catch(function (error) {
+        console.log("Error generating sitemap.xml", error);
     });
 });
