@@ -6,7 +6,8 @@
         .controller('LocationsCtrl', ['$log', '$state', '$location', 'Page', LocationsCtrl])
         .controller('RedmondLakesCtrl', ['$location', 'Page', RedmondLakesCtrl])
         .controller('RedondoBeachCtrl', ['$location', 'Page', RedondoBeachCtrl])
-        .controller('VenturaCtrl', ['$location', 'Page', VenturaCtrl]);
+        .controller('VenturaCtrl', ['$location', 'Page', VenturaCtrl])
+        .controller('BrentwoodCtrl', ['$location', 'Page', BrentwoodCtrl]);
 
     /* @ngInject */
     function LocationsCtrl($log, $state, $location, Page) {
@@ -47,6 +48,13 @@
         /* jshint validthis:true */
         Page.setTitle('Ventura store | ACME, Inc.');
         Page.setDescription('ACME, Inc. Ventura store.');
+        Page.setCanonicalUrl($location.absUrl());
+    }
+    /* @ngInject */
+    function BrentwoodCtrl($location, Page) {
+        /* jshint validthis:true */
+        Page.setTitle('Brentwood store | ACME, Inc.');
+        Page.setDescription('ACME, Inc. Brentwood store.');
         Page.setCanonicalUrl($location.absUrl());
     }
 

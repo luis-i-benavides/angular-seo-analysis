@@ -48,6 +48,14 @@
                     template: '1 Narrow Dr.<br>Ventura, 32678 CA',
                     controller: 'VenturaCtrl'
                 }
+            },
+            {
+                state: 'locations.brentwood',
+                config: {
+                    url: '/brentwood',
+                    template: '1 Small Cr.<br>Brentwood, 32678 CA',
+                    controller: 'BrentwoodCtrl'
+                }
             }
         ];
     }
