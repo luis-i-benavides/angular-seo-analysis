@@ -31,7 +31,6 @@ app.listen(port, function () {
     '\n__dirname = ' + __dirname +
     '\nprocess.cwd = ' + process.cwd());
 
-/*
     Promise.promisify(crawler.crawl)('http://localhost:' + port).then(function (urls) {
         var homeUrl = process.env.HOME_URL || 'http://localhost:' + port;
         var sm = sitemap.createSitemap({
@@ -46,5 +45,4 @@ app.listen(port, function () {
             fs.writeFile('sitemap.xml', xml);
         });
     });
-*/
 });
