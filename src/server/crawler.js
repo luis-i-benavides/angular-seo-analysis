@@ -14,6 +14,7 @@ function crawlPage(idx, urls, callback) {
         browser.on("error", function (error) {
             callback(error, null);
         });
+       // loop through urls on this site
         browser.visit(uri).
             then(function () {
                 browser.wait(function () {
