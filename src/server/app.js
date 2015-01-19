@@ -4,7 +4,7 @@
 var express = require('express');
 var app = express();
 var port = process.env.PORT || 8626;
-var prerender = require('prerender-node').set('prerenderToken', 'xLmdV8Et5kavIbrtBaJE');
+var prerender = require('prerender-node').set('prerenderToken', 'i3G3htPHCLZivIzUu4D7');
 var crawler = require('./crawler');
 var sitemap = require('sitemap');
 var Promise = require("bluebird");
