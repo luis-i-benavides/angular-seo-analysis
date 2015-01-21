@@ -7,7 +7,7 @@
 
     /* @ngInject */
     function appRun(routerHelper) {
-        routerHelper.configureStates(getStates(), '/acme-locations');
+        routerHelper.configureStates(getStates(), '/');
     }
 
     function getStates() {
